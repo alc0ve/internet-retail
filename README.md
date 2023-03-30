@@ -14,18 +14,17 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Features](#features)
+- [Usage](#usage-instructions)
+- [Demo & Screenshots](#demo--screenshots)
 - [Technologies](#technologies)
 - [License](#license)
 - [Credits](#credits)
-- [Contribution](#contribution)
+- [Contribution](#how-to-contribute)
 - [Contact](#contact)
 
 ## Installation
 
-I began with cloning a starter code. Then, the node packages were installed using "npm i" (or "npm install"). I had to add columns to the models files and association methods. 
+I began with a starter code. Then, the node packages were installed using "npm i" (or "npm install"). I added columns to the models files and association methods. 
 
 
 ## Usage (Instructions)
@@ -35,16 +34,11 @@ Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 
-## Deployment
+## Demo & Screenshots
 Live URL: <a href="deployed link">Deployment Link</a>
 
 <!-- in the parentheses is just the relative path to the screenshot-->
 ![alt text](assets/images/screenshot.png)
-
-
-## Features
-
-If your project has a lot of features, list them here.
 
 
 ## Technologies
@@ -79,13 +73,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 This project is licensed under the MIT license. For more information about this license and what it entails, visit the MIT website <a href="https://opensource.org/licenses/MIT">here</a>.
-
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 
 ## Credits
