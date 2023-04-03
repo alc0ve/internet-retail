@@ -8,7 +8,7 @@ Object-Relational Mapping (ORM): E-Commerce
 
 This is a MySQL database and application backend built for an e-commerce website. It was built using npm packages: mysql2, Express.js, Sequelize and dotenv.
 
-This project focused on routes and making changes to a MySQL database using POST, PUT, and DELETE requests, an e-commerce store would have a very similar backend structure. Mysql2 and Sequelize was used to connect the Express.js API to the MySQL database, and the dotenv package was used with environment variables to store sensitive data.
+This project focused on routes and making changes to a MySQL database using GET, POST, PUT, and DELETE requests, an e-commerce store would have a very similar backend structure. Mysql2 and Sequelize was used to connect the Express.js API to the MySQL database, and the dotenv package was used with environment variables to store sensitive data.
 
 ## Table of Contents
 
