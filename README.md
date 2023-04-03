@@ -2,14 +2,13 @@
 
 # E-commerce Internet Retail Backend Solution
 
+Object-Relational Mapping (ORM): E-Commerce
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This is a MySQL database and application backend built for an e-commerce website. It was built using npm packages: mysql2, Express.js, Sequelize and dotenv.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This project focused on routes and making changes to a MySQL database using POST, PUT, and DELETE requests, an e-commerce store would have a very similar backend structure. Mysql2 and Sequelize was used to connect the Express.js API to the MySQL database, and the dotenv package was used with environment variables to store sensitive data.
 
 ## Table of Contents
 
@@ -22,28 +21,45 @@ Provide a short description explaining the what, why, and how of your project. U
 - [Contribution](#how-to-contribute)
 - [Contact](#contact)
 
+
 ## Installation
 
-I began with a starter code. Then, the node packages were installed using "npm i" (or "npm install"). I added columns to the models files and association methods. 
+I began with a starter code. The node packages were installed using "npm i" (or "npm install") in the CLI. I added columns to the models files and association methods. I then focused on adding correct routes that corresponded with what needed to be ran. I tested the routes using Insomnia.
 
 
 ## Usage (Instructions)
 
-Provide instructions and examples for use. Include screenshots as needed.
+Clone the repo down onto your local machine. Open the project and make sure your terminal is in the project folder.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+Run 'npm i' in the CLI to ensure you have all the necessary packages installed. You also have the option of running an 'npm init' to personalize your project. You will also need to have MySQL already installed on your local machine.
+
+Log in to MySQL by using the command, with your mySQL username:
+'mysql -u (mySQL username here) -p' and when prompted, enter your password for MySQL. Create the database by using 'SOURCE db/schema.sql' in the MySQL shell.
+
+Run 'npm run seed' to seed the database with default data.
+
+Run 'npm start' to start the application, which will sync the database and start the server.
 
 
 ## Demo & Screenshots
-Live URL: <a href="deployed link">Deployment Link</a>
+
+Demo URL: <a href="demo video">Demo Video</a>
 
 <!-- in the parentheses is just the relative path to the screenshot-->
-![alt text](assets/images/screenshot.png)
+![Get All Categories Example using Insomnia](./images/All-categories-shot.png)
+
+![Creating a 'demoshot' category using Insomnia](./images/Create-category-shot.png)
+
+![Searching by category ID for 'demoshot'](./images/Show-added-category.png)
+
+![Updating category ID to 'demoupdate'](./images/Update-category.png)
+
+![Deleting 'demoupdate' category](./images/Delete-category-shot.png)
 
 
 ## Technologies
 
-JavaScript, Node.js, Express.js, MySQL, Sequelize
+JavaScript, Node.js, Express.js, MySQL, Sequelize, dotenv
 
 
 ## License
@@ -77,16 +93,17 @@ This project is licensed under the MIT license. For more information about this 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+My tutor helped a great deal in understanding routes. Blair Millet helped me with organizing and debugging. I used a youtube video to further my understanding of using Sequelize, and becoming comfortable with utilizing it in this project.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Excellent basic Sequelize video: https://www.youtube.com/watch?v=ExTZYpyAn6s
 
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+If you would like to contribute or have any suggestions for improvement, please contact me. 
+
+Refer to the [Contributor Covenant](https://www.contributor-covenant.org/) as an industry standard.
 
 ## Contact
-  If you liked this project and want to see more, feel free to check out my other repos [here](https://github.com/alc0ve).
+
+If you liked this project and want to see more, feel free to check out my other repos [here](https://github.com/alc0ve).
