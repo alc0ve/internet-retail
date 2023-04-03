@@ -43,7 +43,7 @@ Run 'npm start' to start the application, which will sync the database and start
 
 ## Demo & Screenshots
 
-Demo URL: <a href="demo video">Demo Video</a>
+Demo URL: <a href="https://drive.google.com/file/d/1kYZbknQdjEBp6w_qLWntHeKM8Aj_2Pcd/view?usp=share_link">Demo Video</a>
 
 <!-- in the parentheses is just the relative path to the screenshot-->
 ![Get All Categories Example using Insomnia](./images/All-categories-shot.png)
